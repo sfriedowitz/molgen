@@ -1,0 +1,6 @@
+{
+    "java.format.settings.profile": "GoogleStyle",
+    "java.format.enabled": true,
+    "editor.formatOnSave": true,
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
