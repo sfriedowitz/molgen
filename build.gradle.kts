@@ -1,15 +1,17 @@
+group = "me.sfriedowitz"
+version = "0.1.0"
+
 plugins {
-    java
+    `java-library`
 }
 
 repositories {
-    mavenCentral()
+   mavenCentral()
 }
 
 dependencies {
-    // Runtime
-    implementation("com.google.guava:guava:33.0.0-jre")
-
+    // API
+    api("org.openscience.cdk:cdk-core:2.12")
     // Testing
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 }
@@ -18,6 +20,8 @@ java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(21))
     }
+    withSourcesJar()
+    withJavadocJar()
 }
 
 tasks.test {
