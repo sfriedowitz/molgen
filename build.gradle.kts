@@ -17,6 +17,7 @@ dependencies {
     // Runtime
     implementation(libs.cdk.silent)
     implementation(libs.cdk.smiles)
+    implementation(libs.cdk.inchi)
     // Test
     testImplementation(libs.junit)
     testRuntimeOnly(libs.junit.platform.launcher)

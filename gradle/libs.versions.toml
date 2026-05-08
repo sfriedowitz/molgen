@@ -8,6 +8,7 @@ assertj = "3.27.7"
 cdk-core = { module = "org.openscience.cdk:cdk-core", version.ref = "cdk" }
 cdk-silent = { module = "org.openscience.cdk:cdk-silent", version.ref = "cdk" }
 cdk-smiles = { module = "org.openscience.cdk:cdk-smiles", version.ref = "cdk" }
+cdk-inchi = { module = "org.openscience.cdk:cdk-inchi", version.ref = "cdk" }
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
 junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
